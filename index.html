@@ -1,27 +1,20 @@
-[
-  {
-    "question": "AIとは何の略ですか？",
-    "options": ["Artificial Intelligence", "Automated Information", "Advanced Interaction", "Artificial Integration"],
-    "answer": 0
-  },
-  {
-    "question": "機械学習はAIの一部ですか？",
-    "options": ["はい", "いいえ", "時と場合による", "まだ分からない"],
-    "answer": 0
-  },
-  {
-    "question": "AIが学習するために必要なのは何ですか？",
-    "options": ["データ", "電気", "インターネット", "プログラム言語"],
-    "answer": 0
-  },
-  {
-    "question": "AIが画像を認識するために使用する技術は何ですか？",
-    "options": ["コンピュータビジョン", "自然言語処理", "強化学習", "ロボティクス"],
-    "answer": 0
-  },
-  {
-    "question": "AIの倫理的課題に含まれないものはどれですか？",
-    "options": ["バイアス", "プライバシー", "透明性", "高速インターネット"],
-    "answer": 3
-  }
-]
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIリテラシークイズ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>AIリテラシークイズ</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="next-button" style="display:none;">次の問題</button>
+    <div id="score" style="display:none;"></div>
+    <button id="retry-button" style="display:none;">リトライ</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

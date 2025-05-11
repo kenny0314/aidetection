@@ -1,0 +1,6 @@
+project-folder/
+├── index.html          # メインHTMLファイル
+├── style.css           # デザイン用CSS
+├── script.js           # クイズの動作ロジック
+├── data/
+│   └── ai_quiz.json    # クイズデータ
